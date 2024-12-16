@@ -1,4 +1,4 @@
-# *FOR INTERNAL USE ONLY*
+# *FOR INTERNAL USE OF LEGOLAS ONLY*
 
 Installation:
 
