@@ -1,8 +1,8 @@
 # *FOR INTERNAL USE OF LEGOLAS ONLY*
 
 WARNING: Unless you are a developer you are in the wrong place. You should *not*
-install, use or depend on anything in this repo. Install LEGOLAS instead, according to
-its documentation.
+directly install, use or depend on anything in this repo. Install LEGOLAS instead,
+according to its documentation.
 
 Assuming all dependencies are satisfied:
 
