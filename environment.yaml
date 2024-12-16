@@ -1,0 +1,22 @@
+name: internal-legolas-aev
+channels:
+  - nodefaults
+  - https://conda.anaconda.org/pytorch
+  - https://conda.anaconda.org/nvidia
+  - https://conda.anaconda.org/conda-forge
+dependencies:
+  - python=3.10
+  - pip>=24.0
+  - numpy=2.1
+  - pytorch::pytorch=2.5
+  - typing_extensions>=4.0.0
+
+  - pytorch::pytorch-cuda=12.4
+  - setuptools>=64
+  - setuptools-scm>=8
+  - gxx_linux-64=12.2
+  - gcc_linux-64=12.2
+  - nvidia::cuda-libraries-dev=12.4
+  - nvidia::cuda-cccl=12.4
+  - nvidia::cuda-nvcc=12.4
+  - nvidia::cuda-cudart-static=12.4
