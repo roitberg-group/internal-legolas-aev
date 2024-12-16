@@ -5,7 +5,7 @@ authors = [
     {name = "Xiang Gao", email = "qasdfgtyuiop@gmail.com"},
     {name = "Jinze Xue", email = "jinzexue@chem.ufl.edu"},
 ]
-description = "Partial published version of some TorchANI features needed for LEGOLAS"
+description = "For internal use of LEGOLAS only"
 readme = "README.md"
 keywords = []
 classifiers = ["License :: OSI Approved :: MIT License"]
