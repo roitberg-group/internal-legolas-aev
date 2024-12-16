@@ -7,7 +7,7 @@ its documentation.
 Assuming all dependencies are satisfied:
 
 ```bash
-pip install --no-deps --no-build-isolation --config-settings=--global-option=ext -v -e .
+pip install --no-deps --no-build-isolation --config-settings=--global-option=ext-all-sms -v -e .
 ```
 
 For a standalone install, first create an env with dependencies:
