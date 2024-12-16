@@ -2,7 +2,7 @@
 
 WARNING: Unless you are a developer you are in the wrong place. You should *not*
 directly install, use or depend on anything in this repo. Install LEGOLAS instead,
-according to its documentation.
+following the instructions in its documentation.
 
 Assuming all dependencies are satisfied:
 
