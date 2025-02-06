@@ -112,7 +112,7 @@ def will_not_build_extensions_warning(torch_import_error: bool = False) -> None:
 
 
 TORCHANI_FLAGS = {"ext", "ext-all-sms", "ext-debug", "ext-no-opt"}
-SUPPORTED_SMS = {"60", "61", "70", "75", "80", "86"}
+SUPPORTED_SMS = {"60", "61", "70", "75", "80", "86", "90"}
 for sm in SUPPORTED_SMS:
     TORCHANI_FLAGS.add(f"ext-sm{sm}")
 
@@ -168,6 +168,8 @@ def setup_kwargs() -> tp.Dict[str, tp.Any]:
             sms.add("80")
         if cuda_version >= 11.1:
             sms.add("86")
+        if cuda_version >= 12:
+            sms.add("90")
         return sms
 
     def collect_compatible_sms() -> tp.Set[str]:
